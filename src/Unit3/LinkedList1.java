@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class LinkedList1 {
     public static void main(String[] args) {
-        LinkedList<String> ll=new LinkedList1();
+        LinkedList<String> ll=new LinkedList<String>();
         ll.add("First");
         ll.add("Second");
         ll.add("Third");
