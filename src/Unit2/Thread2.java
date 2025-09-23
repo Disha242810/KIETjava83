@@ -1,10 +1,10 @@
 package Unit2;
 
-public class Thread1 extends Thread {
+public class Thread2 extends Thread{
     public void run(){
-        for(int i=0; i<10; i++) {
+        for(int i=1; i<10; i+=2){
             try{
-                Thread.sleep(10000);
+                Thread.sleep(9000);
             }
             catch(Exception e){
                 System.out.println(e.getMessage());
@@ -12,5 +12,4 @@ public class Thread1 extends Thread {
             System.out.println(i);
         }
     }
-
 }
